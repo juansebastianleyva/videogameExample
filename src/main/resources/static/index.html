@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ejemplo Juegos</title>
+    <link rel="stylesheet" href="css/semantic.min.css" />
+</head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+
+<script src="js/semantic.min.js"></script>
+<script src="js/myScript.js"></script>
+<body>
+
+<div class="ui form">
+    <input placeholder="Nombre del juego" id="gameName">
+    <input placeholder="Precio del juego" id="gamePrice">
+    <input placeholder="Año del juego" id="gameLaunchYear">
+    <input placeholder="Link de Imagen" id="gameImage">
+
+    <button class="ui button" onclick="saveGame()">Guardar!</button>
+
+</div>
+
+<button class="ui button" onclick="getGames()">OK!</button>
+<div id="parrilla" class="ui cards"></div>
+
+</body>
+</html>
